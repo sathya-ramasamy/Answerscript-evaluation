@@ -1,0 +1,80 @@
+<html>
+    <head>
+	<title>Upload File</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="static/styles/tabcss.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+    <body>
+    <div class="container">
+    <div class="page-design">
+    <div class="form-style-10">
+<h1>Answer Script Evaluation</h1>
+<ul class="tabs" role="tablist">
+  <li>
+     <input type="radio" name="tabs" id="tab1" checked />
+    <label for="tab1" role="tab" aria-selected="true" aria-controls="panel1" tabindex="0">UPLOAD AND EVALUATE</label>
+    <div id="tab-content1" class="tab-content" role="tabpanel" aria-labelledby="description" aria-hidden="false">
+
+   <form method=POST enctype=multipart/form-data  id="survey-form" action="" method="put">
+      <div class="details">
+       <div class="section">
+           <div class="inner-wrap">
+           <div class="row">
+               <div class="col-sm-4 hello">Subject Name</div>
+               <div class="col-sm-4"><input type=text name=sub_name pattern="([A-zA-Z\s]){2,}"></div>
+            </div>
+           <div class="row">
+               <div class="col-sm-4">Subject Code </div>
+               <div class="col-sm-4"> <input type=text name=sub_code pattern="([A-zÀ-ž0-9\s]){2,}"></div>
+           </div>
+           <div class="row">
+               <div class="col-sm-4">Name</div>
+               <div class="col-sm-4"><input type=text name=name_field pattern="([A-zA-Z\s]){2,}"></div>
+               </div>
+            <div class="row">
+                <div class="col-sm-4">Register Number</div>
+                <div class="col-sm-4"><input type=text name=regno_field pattern="([0-9])+"></div>
+               </div>
+           </div>
+       </div>
+       </div>
+       <div class="section"><span>1</span>Answer file: </div>
+           <div class="inner-wrap">
+            <p><input type=file name=file_field></p>
+           </div>
+       <div class="section"><span>2</span>Keyword file: </div>
+          <div class="inner-wrap">
+            <input type="file" name="keyword">
+       </div>
+       <div class="section"><span>3</span>Mark:  </div>
+           <div class="inner-wrap">
+            <p><input type=file name=mark></p>
+           </div>
+       <div class="button-section">
+        <input type=submit class="btn btn-primary center-block submit-button" value=Upload><br><br>
+       </div>
+
+						</form>
+        </div>
+
+  </li>
+
+  <li>
+    <input type="radio" name="tabs" id="tab2" />
+    <label for="tab2" role="tab" aria-selected="false" aria-controls="panel2" tabindex="0">CHECK RESULTS</label>
+    <div id="tab-content2" class="tab-content" role="tabpanel" aria-labelledby="specification" aria-hidden="true">
+     <div class="inner-wrap">
+         <a href="/whole results/" target="_blank"><h2>view results</h2></a>
+     </div>
+    </div>
+  </li>
+</ul>
+</div>
+</div>
+</div>
+    </body>
+</html>

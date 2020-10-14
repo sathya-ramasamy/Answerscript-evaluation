@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="static/styles/result.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="blur"></div>
+<div class="form-style-10">
+    <div class="details">
+              <h1 class="title">RESULT</h1>
+               <div class="section">
+                  <div class="inner-wrap">
+                   <div class="row">
+                       <div class="col-sm-4">Name</div>
+                       <div class="col-sm-4">{{name}}</div>
+                       </div>
+                     <div class="row">
+                        <div class="col-sm-4">Register Number</div>
+                        <div class="col-sm-4">{{regno}}</div>
+                       </div>
+                   </div>
+                   <div class="inner-wrap">
+                   <div class="row">
+                       <div class="col-sm-4 ">Subject Name</div>
+                       <div class="col-sm-4">{{sub_name}}</div>
+                    </div>
+                   <div class="row">
+                       <div class="col-sm-4">Subject Code </div>
+                       <div class="col-sm-4"> {{sub_code}}</div>
+                   </div>
+
+                   </div>
+               </div>
+    </div>
+
+   <div class="container">
+   <div class="myclass">
+  <p class="head">Marks alloted for each question</p>
+  <div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>QUESTION NUMBER</th>
+        <th>MARKS</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>{{mark[0]}}</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>{{mark[1]}}</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>{{mark[2]}}</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>{{mark[3]}}</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>{{mark[4]}}</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>{{mark[5]}}</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>{{mark[6]}}</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>{{mark[7]}}</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>{{mark[8]}}</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>{{mark[9]}}</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>{{mark[10]}}</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>{{mark[11]}}</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>{{mark[12]}}</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>{{mark[13]}}</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>{{mark[14]}}</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>{{mark[15]}}</td>
+    </tr>
+      </tbody>
+  </table>
+  <div class="result">
+  <h1 class="res">Total mark</h1>
+   <h2 class="tot">{{tot}}</h2>
+    <h1 class="res">Case</h1>
+    <h2 class="tot">"{{case}}"</h2>
+      </div>
+    </div>
+</div>
+    </div>
+    </div>
+</body>
+</html>
