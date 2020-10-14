@@ -1,0 +1,547 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Software project management is the art and science of 
+planning and leading software projects. It is a sub-discipline 
+of project management in which software projects are planned, 
+implemented, monitored and controlled. 
+ 
+2. Software quality metrics are subset of software metrics 
+that focus on the quality aspects of the product process and 
+project. In general software quality metrics are closely 
+associated with process and product metrics 
+than project metrics. 
+ 
+3. Scrum is an efficient framework within which you can 
+develop software with teamwork. It is based on agile 
+principles. Scrum supports continuous collaboration among 
+the customer, team members, and relevant stakeholders. 
+ 
+4. Answering the question 
+What do we have to do to have a success? 
+Need for a project authority 
+*Sets the project scope 
+
+
+
+* Allocates/approves costs 
+* Could be one person - or a group  
+* Project Board  
+*Project Management Board 
+*Steering committee. 
+Objectives Informally, the objective of a project can be defined 
+by completing the 
+statement: The project will be regarded as a success  
+if  Rather like 
+post-conditions for the project Focus on what will be put in 
+place, rather than how activities will be carried out. 
+ 
+5. Monitoring is the systematic process of collecting, analyzing 
+and using information to track a programmes progress 
+toward reaching its objectives and to guide management 
+decisions.Monitoring usually focuses on processes, such as 
+when and where activities occur, 
+who delivers them and how many people or entities they reach. 
+ 
+
+
+
+6. The Monte Carlo method is a numerical method for 
+statistical simulation which utilizes sequences of random 
+numbers to perform the simulation. 
+ 
+7. Once data has been collected about project progress, a 
+manager needs some way of presenting that data to greatest 
+effect. Some of these methods such as Gantt charts provide a 
+static picture, a single snapshot, whereas others such as 
+time line charts try to show how the project has progressed 
+and changed over time. 
+ 
+8. Earned Value Analysis (EVA) is an industry standard 
+method of measuring a project's progress at any given point in 
+time, forecasting its completion date and final cost, and 
+analyzing variances in the schedule 
+and budget as the project proceeds. 
+9. A virtual team (also known as a geographically dispersed 
+team, distributed team, or remote team) is a group of 
+individuals who work across time, space and 
+
+
+
+organizational boundaries with links strengthened by webs of 
+communication technology 
+ 
+10. Project software management is a collection of techniques 
+used to develop and 
+deliver various 
+Types of software products 
+*Project management is all about getting things done in the 
+most efficient manner 
+possible. ) 
+*Its important to the company's success to invest time into 
+the project 
+11. a. The dictionary definitions put a clear emphasis on the 
+project being a planned activity. The other definitions include 
+_ A Specific plan or design _ A planned undertaking _ A 
+large undertaking 
+Characteristics: 
+_ Non-routine tasks are involved _ Planning is required 
+_ Specific objectives are to be met 
+The project has a predetermined time span 
+
+
+
+_ Work is carried out for someone other than yourself _ 
+Work involves several 
+specialism 
+_ People are formed into temporary work group 
+_ Work is carried out in several phases 
+_ Resources available are constrained 
+_ The project is large and complex. 
+ 
+12. b. Resource allocation in software development is 
+important and many 
+methods have been proposed. Related empirical research is yet 
+scarce and 
+evidence is required to validate the theoretical methods. This 
+paper introduces the staffing pattern as a metric of resource 
+distribution among 
+project phases, and verifies its effect on software quality and 
+productivity using real project data. 
+The main findings are: (1) there exist different staffing 
+patterns in reality; (2) 
+
+
+
+the staffing pattern has significant effect on software quality 
+(post-release defect 
+density); (3) the staffing pattern has no significant effect on 
+productivity; (4) the 
+effort invested on test, document or code inspection possibly 
+explains the effect of 
+staffing pattern on software quality; (5) the effort consumed 
+by rework perhaps 
+counteracts the effect of other potential factors on 
+productivity. Preliminary 
+heuristics are suggested to resource allocation practices. 
+We name these as staffing patterns as follows: (1) Rapid-
+team-buildup pattern 
+(abbreviated Rapid for later reference). The staffing levels 
+peak in requirement 
+phase, and decrease in later phases. This might mean the 
+culture of excessive 
+documentation or design, leading to low ability to respond 
+rapidly for requirement 
+
+
+
+change. Another possible reason would be to outsource part of 
+the system to other 
+organization for design and development. In both situations, 
+we suppose the 
+software quality and productivity are low. (2) Fix-staff 
+pattern (abbreviated 
+Fix). The team size is fixed or stable across project lifecycle. 
+It is likely that 
+the same team has done all work. Due to sufficient learning 
+time and 
+communication within the team, we assumed that high 
+software quality will be 
+yielded as a result. It is hard to assess its productivity: 
+perhaps peoples work 
+efficiently due to effective communication, perhaps this effect 
+cannot counteract 
+against the excessive human resources investment in a 
+prolonged duration. (3) 
+Design-construction-centric pattern (abbreviated Design). 
+The staffing levels are 
+
+
+
+high in design and construction phases, and low in other 
+phases. The reason for 
+low staffing level in requirement and test phases may be 
+indifference to them, or 
+mature/simple product. The software quality and 
+productivity might be low for 
+the former possibility, and high for the latter. (4) 
+Implementation-centric pattern 
+(abbreviated Implement). The staffing levels are high in 
+construction and test 
+phases, and low in other phases. The reason for low staffing 
+level in requirement 
+and design phases may be indifference to them, or merely 
+providing coding and 
+testing services in IT outsourcing market. The software 
+quality and 
+productivity would be low for the former possibility, and high 
+for the latter. (5) 
+Test-centric pattern (abbreviated Test). The staffing levels 
+are relatively low in 
+
+
+
+early phases, but increase in test and transition phases. The 
+increasing level in 
+test phase may be the result of intensive testing by a special 
+team (in-house or 
+outsourcing), or fire-fighting for too many bugs. The software 
+quality may be high, 
+because the staffing level in early phases is also stable and the 
+situation is the 
+same as Fix-staff pattern. Moreover, it is possible that high 
+staffing level in test 
+or transition phase detects and removes more defects before 
+delivery. Similar to 
+Fix-staff pattern, its productivity is hard to be determined. 
+13. b. Formulating a network model 
+The first stage in creating a network model is to represent 
+the activities 
+and their relationships as a graph. In activity-on-node we 
+do this by 
+representing activities as nodes in the graph-the lines between 
+nodes 
+
+
+
+represent dependencies. 
+Constructing precedence networks 
+A project network should have only one start node. A project 
+network 
+should have only one end node. A node has duration. 
+Links normally have no duration. 
+Precedents are the immediate preceding activities. 
+Times moves from left to right 
+A network may not contain loops 
+Representing lagged activities We might come across situations 
+where we 
+wished to undertake two activities in parallel so long as there 
+is a lag 
+between the two. We might wish to document amendments to 
+a program as 
+it was being tested - particularly if evaluating a prototype. 
+Where 
+activities can occur in parallel with a time lag between them 
+we represent 
+
+
+
+the lag with duration on the linking arrow as shown in 
+Figure 6.13. This 
+indicates that documenting amendments can start one day 
+after the start 
+of prototype testing and will be completed two days after 
+prototype testing 
+is completed. Hammock activities A hammock activity (also 
+hammock task) 
+is a schedule or project planning term for a grouping of tasks 
+that "hang" 
+between two end dates it is tied to. A hammock 
+activity can group tasks which are not related in the 
+hierarchical sense of 
+a Work Breakdown Structure, or are not related in a 
+logical sense of a 
+task dependency where one task must wait for another. 
+ 
+14. a. A project manager is a person who is responsible for 
+leading the 
+
+
+
+project. In other words, project managers are the spearheads 
+of a project. 
+They ensure that the project is completed within the specified 
+deadline and 
+gets delivered to the client without any flaws. 
+Here are three simple steps to help you start monitoring your 
+schedule. 
+15. b. Ethics relates to the moral obligation to respect the 
+rights and 
+interests of others  goes beyond strictly legal responsibilities 
+Three groups of responsibilities: 
+* Responsibilities that everyone has 
+* Responsibilities that people in organizations have 
+* Responsibilities relating to your profession or calling 
+Organizational 
+ethics 
+There are some who argue that ethical organizational ethics 
+are limited: 
+* Stockholder theory (e.g. Milton Friedman). An employees 
+duty is to the 
+
+
+
+owners of the business (which often means the stakeholders) 
+above all 
+others  although legal requirements must be met. 
+* Competitive relationships between businesses. 
+qual chances for promotions. One way to promote uniform 
+treatment in organizations is through sensitivity training. 
+Some companies 
+hold one-day seminars on various discrimination issues. They 
+then invite 
+outside experts in to discuss these topics. Similarly, small 
+company 
+managers must also avoid favoring one employee over others.  
+The owner must also maintain certain safety standards for 
+protecting nearby residents from leaks that affect the water 
+or air quality. 
+There are state and federal laws that protect people from 
+unethical 
+environmental practices. Business owners who violate these 
+laws may face 
+stiff penalties. They may also be shut down. 
+
+
+
+ 
+Business owners must run clean operations with respect to  
+investing and expanding their companies. For example, 
+organizations 
+must not bribe state legislators for tax credits or special 
+privileges. 
+Insider trading is when managers or 
+information affecting publicly traded stocks, according to the 
+Securities 
+and Exchange Commission. The information helps some 
+investors achieve 
+greater returns on their investments at the expense of others. 
+Executives 
+in small companies must strive to help all shareholders earn 
+better returns 
+on their money. They must also avoid collusive arrangements 
+with other 
+companies to deliberately harm other competitors. 
+Considerations 
+
+
+
+A small company's organizational ethics can also include 
+taking care of 
+employees with mental illnesses or substance abuse problems, 
+such as drug 
+and alcohol dependency. Ethical business owners help their 
+employees 
+overcome these types of problems when possible. They often put 
+them 
+through employee advisor programs, which involves getting 
+them the 
+treatment they need. Employees may have issues that lead to 
+these types of 
+problems. Therefore, they deserve a chance to explain their 
+situations and 
+get the help they need 
+Professional ethics 
+Professionals have knowledge about the technical domain that 
+the general 
+public does not. Ethical duty of the expert to warn lay people 
+of the risks 
+
+
+
+involved in a particular course of action. Many professions, 
+or would be 
+professions, have codes of conduct for their members. 
+ 
+16. a. Its a well-known fact that an organization (company, 
+business or non-profit) is a complex system which is primarily 
+designed to add value to all stakeholders: employers, legal 
+owners, staff, customers, business partners, authorities, etc. 
+
+Any organization uses a management system to determine the 
+needs of each stakeholder, to transform these needs into 
+internal requirements, to provide the resources needed to 
+meet all the requirements and to review the performances. 
+(See picture below 
+
+ 
+
+There are many definitions for the Management System of an 
+organization. Here are two examples: 
+
+ 
+
+
+
+ 
+
+ 
+
+Therefore, to have a management system, each organization 
+should clearly define its own activities and internal processes, 
+and these internal processes must be continuously improved, 
+based on the analysis of the results. 
+
+ 
+
+We can define the term quality in many ways, but the ISO 
+family of standards gives a very concise definition: quality - 
+the degree to which a set of inherent characteristics fulfils 
+Note: At this time, the ISO 9000 and ISO 9001 standards 
+are under revision. 
+
+ 
+
+This definition gives a general sense of "quality", but we can 
+watch at The Chartered Quality Institute (thecqi.org) which 
+gives the following definition: an outcome  a characteristic 
+of a product or service provided to a customer, and the 
+
+
+
+hallmark of an organization which has satisfied all of its 
+stakeholders.  
+
+ 
+
+So, we must consider the customer and the degree to which 
+the product or service meets the needs of all stakeholders. We 
+can say about the quality of a product or service that this is 
+poor, or good or excellent, but this must be in 
+accordance with something, we must have a reference to give 
+such a description. 
+
+ 
+
+Nowadays, all organizations have to face some challenges in 
+their business environment: the economic crisis, globalization, 
+as well as the competition in its market. Moreover, the 
+increase in technology and especially in IT, requires new 
+actions. For example, it is well known that the e-commerce 
+has opened new doors in business, which means an increased 
+competitive environment. And if we consider the area of social 
+
+
+
+media, we realize that organizations that do not meet the 
+"quality" of products or services have no chance to stay on 
+the market. The conclusion is that Quality is very 
+important for every business!  
+
+What might or could a company do to provide quality 
+products or services? 
+
+This is such a great subject! We could talk days and days 
+about it! But in this article I will touch only a part of it, 
+namely the one that relates to the Quality Management 
+System. 
+
+What is a Quality Management System? 
+
+Returning to ISO 9000:2005, we can find this definition: 
+management system to direct and control an organization 
+with regard to quality. 
+
+In other words, a Quality Management System is a set of 
+interrelated or interacting processes used to guide and lead 
+
+
+
+an organization so that its products or services meet the 
+established requirements. 
+
+ 
+
+Specifically, the Quality Management System focuses on the 
+processes of the organization, customer and continuous 
+improvement. 
+
+Any Management System (whether it is quality, environment, 
+energy, etc.) is developed based on PDCA cycle model, which 
+is known as process-based model system. So, if an 
+organization wants to fulfill the requirements for a quality 
+management system, it must develop its management system on 
+a process approach. This is a very important principle of 
+quality management, and the new revision of the standard 
+(expected in September 2015) makes an emphasis on "the 
+process approach". From this point of view, we can say that 
+the internal processes of an organization are very important 
+for delivering quality products or services. But it is not the 
+
+
+
+single one  there are actually, eight quality management 
+principles and any organization must take these into account: 
+
+ 
+
+Customer focus 
+
+Leadership 
+
+Involvement of people 
+
+Process approach 
+
+System approach to management 
+
+Continual improvement 
+
+Factual approach to decision making 
+
+Mutually beneficial supplier relationships 
+
+Every principle from the above list has its own importance. 
+But, in this article I will focus on only the first of them. 
+
+ 
+
+The first principle customer focus is very important. 
+Everyone will agree that an organization depends on its 
+
+
+
+customers, and that the organization cannot exist unless 
+there are clients who buy its products and services. For this 
+reason, the organization must understand the requirements 
+of its customers and should focus to exceed those 
+expectations and understand their requirements even 
+further. 
+
+ 
+
+
