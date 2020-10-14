@@ -14,7 +14,6 @@ from mysql.connector import Error
 from flask import Flask, request,render_template
 import pandas as pd
 
-# TikaServerJar=r"C:\Users\Viola\PycharmProjects\ocr\tika-server-1.24.jar"#
 
 class evaluation():
     def pdf_to_text(self,filename):
@@ -363,10 +362,6 @@ def upload_file():
                             print(markss)
                             pop_it_out=0
                         markss.append(q_mark)
-                        mark_file = open("final_marks.xls", "w")
-                        n = mark_file.write(str(q_mark))
-                        n = mark_file.write("\n")
-                        mark_file.close()
                         print("The mark is:\n", markss)
 
 
